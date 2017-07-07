@@ -1,0 +1,38 @@
+/**
+ * teensoft_Style.css
+ * since 2017.06.25
+ * Author JH
+ */
+
+body {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.teensoft-flat_header {
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 0 0;
+	background: #03a9f4;
+}
+.teensoft-flat_article {
+	background: #03a9f4;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 0 0;
+}
+.teensoft-article {
+	box-shadow: 5px 5px 5px black;
+	padding : 5px 5px 5px 5px;
+	margin: 7px 7px 7px 7px;
+}
+.teensoft-footer {
+	background: #424242
+	padding: 5px 5px 5px 5px;
+}
+.teensoft-footer_title {
+	color: white;
+	margin: 5px 5px 5px 5px;
+	font: bold;
+}
+.teensoft-footer_link {
+	color: #bdbdbd;
+	margin: 3px 3px 3px 3px;
+}
