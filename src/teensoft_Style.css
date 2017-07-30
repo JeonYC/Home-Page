@@ -3,36 +3,41 @@
  * since 2017.06.25
  * Author JH
  */
+ 
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 
 body {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+	font-family: 'Nanum Gothic',sans-serif;
+}
+a {
+	color: #2196f3;
+}
+.teensoft-brush_title {
+	font-family: 'Nanum Pen Script', cursive;
 }
 .teensoft-flat_header {
-	padding: 5px 5px 5px 5px;
-	margin: 0 0 0 0;
+	padding: 5px;
+	margin: 0;
 	background: #03a9f4;
 }
 .teensoft-flat_article {
-	background: #03a9f4;
+	background: #bdbdbd
 	padding: 5px 5px 5px 5px;
 	margin: 0 0 0 0;
 }
 .teensoft-article {
-	box-shadow: 5px 5px 5px black;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px 3px #cccccc;
 	padding : 5px 5px 5px 5px;
 	margin: 7px 7px 7px 7px;
+	height: auto;
 }
 .teensoft-footer {
 	background: #424242;
 	padding: 10px 10px 10px 10px;
-}
-.teensoft-footer_title {
-	color: white;
-	margin: 5px 5px 5px 5px;
-	font: bold;
-}
-.teensoft-footer_link {
-	color: #bdbdbd;
-	margin: 3px 3px 3px 3px;
 }
